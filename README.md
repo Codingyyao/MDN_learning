@@ -3,7 +3,7 @@
 ### Recoding the test web site build for learning MDN file!
 
 ### Tips
-> if you want to see the actual webstie format online, it can be done by typing url adress like (https://htmlpreview.github.io/? + yourfile-address) in you local browser!
+> if you want to see the actual webstie format online, it can be done by typing url adress (format: https://htmlpreview.github.io/? + yourfile-address) in you local browser!
 
 > for example (test-site)
 
