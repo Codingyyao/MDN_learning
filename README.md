@@ -10,7 +10,9 @@
 ```bash
 
 $ cd web-site
-# typing url (https://htmlpreview.github.io/?https://github.com/Codingyyao/MDN_learning/test-site/index.html) in you browser!
+# typing url (https://htmlpreview.github.io/?https://github.com/Codingyyao/MDN_learning/blob/main/test-site/index.html) in you browser!
 
 ```
+
+![test-sit web online](/test-site/images/website.png)
 
