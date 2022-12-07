@@ -14,5 +14,5 @@ $ cd web-site
 
 ```
 
-![test-sit web online](/test-site/images/website.png)
+<img src="/test-site/images/website.png" height = "550" alt="test-stie 主页面" align=center />
 
