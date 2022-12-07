@@ -1,3 +1,3 @@
 # MDN_learning
 
-### recoder the test web site build for learning MDN file!
+### Recoding the test web site build for learning MDN file!
