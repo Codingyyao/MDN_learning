@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #ccc;
+}
+
+article {
+    width: 210mm;
+    height: 297mm;
+    margin: 20px auto;
+    position: relative;
+}
+
+address {
+    position: absolute;
+    bottom: 8mm;
+    right: 20mm;
+}
+
+h1 {
+    position: absolute;
+    top: 12mm;
+    left: 20mm;
+    width: 128px;
+    height: 128px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 44px 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* Your CSS below here */
+
+.insert-top-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height:calc(12mm + 128px);
+    background-image: url(top-image.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.insert-bottom-image {
+    position: fixed;
+    top: 170mm;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-image: url(bottom-image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+/*仅添加顶部图片到信纸顶部，以此作为不支持之前那种声明方式的浏览器的后备方案*/
+
+body {
+    background-color: white;
+    border-top: 1mm solid gray;
+    border-bottom: 1mm solid gray;
+}
+/**/
+
+body {
+    background-image: linear-gradient(rgba(16, 1, 1, 0.5) 0%,white 15%, white 85%, rgba(19, 18, 18, 0.5) 100%);
+}
+
+/*仅添加顶部图片到信纸顶部，以此作为不支持之前那种声明方式的浏览器的后备方案*/
+div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: calc(12mm + 128px);
+    background-image: url(top-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/**/
+
+h1 { background-image: url(logo.png);
+    /*通过过滤器添加阴影*/
+    filter: drop-shadow(16px 16px 10px black); -webkit-filter: drop-shadow(5px 5px 5px black);
+}

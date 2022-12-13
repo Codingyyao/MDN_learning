@@ -1,0 +1,51 @@
+
+/*标题和包含数字的列右对齐*/
+/*标题和包含文字的列左对齐*/
+
+th:nth-child(1), td:nth-child(1) {
+    text-align: left;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    text-align: right;
+}
+
+th:nth-child(3), td:nth-child(3) {
+    text-align: right;
+}
+
+th:nth-child(4), td:nth-child(4) {
+    text-align: left;
+}
+
+/*调整最后一行 total 的格式*/
+
+tfoot th[colspan="2"] {
+    text-align: right;
+}
+
+tfoot td[colspan="2"]{
+    text-align: left;
+}
+
+/*添加顶部和底部边框*/
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: solid black 2px;
+    border-top: solid black 2px;
+}
+tfoot {
+    border-top: solid black 2px;
+}
+
+/*对奇数行条纹化*/
+
+tbody tr:nth-child(odd) {
+    background-color: gray;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+}
