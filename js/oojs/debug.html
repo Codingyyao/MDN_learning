@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    class Site {
+      constructor(name) {
+        this.sitename = name;
+      }
+      present() {
+        return "我喜欢" + this.sitename;
+      }
+    }
+
+    class Runoob extends Site {
+      constructor(name, age) {
+        super(name);
+        this.age = age;
+      }
+      show() {
+        console.log(this.present() + ", 它创建了 " + this.age + " 年。");
+      }
+    }
+
+    let noob = new Runoob("菜鸟教程", 5);
+    noob.show();
+    //document.getElementById("demo").innerHTML = noob.show();
+  </script>
+</html>

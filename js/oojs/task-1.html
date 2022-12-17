@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    class Shape {
+      name;
+      sides;
+      sideLength;
+    }
+
+    Shape.prototype.calcPerimeter = function () {
+      var lengthOuter = this.sideLength;
+      console.log(lengthOuter);
+    };
+
+    var square = new Shape();
+    square.name = "square";
+    square.sideLength = 5;
+
+    square.calcPerimeter();
+
+    var triangle = new Shape();
+    triangle.name = "square";
+    triangle.sideLength = 3;
+
+    triangle.calcPerimeter();
+  </script>
+</html>
